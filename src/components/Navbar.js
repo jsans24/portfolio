@@ -8,7 +8,6 @@ const Navbar = () => {
         <ul>
           <li><HashLink to="#">Home</HashLink></li>
           <li><HashLink to="/#projects">Projects</HashLink></li>
-          <li><HashLink to="/blog#top">Blog</HashLink></li>
           <li><HashLink to="/#contact">Contact</HashLink></li>
         </ul>
         </nav>
