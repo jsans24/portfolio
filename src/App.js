@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import { Switch, Route } from 'react-router-dom';
+// import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
-      <Switch>
+      <Routes>
         <Route exact path='/' component={ Home }/>
-        <Route path='/projects' component={ Projects }/>
-      </Switch>
+        {/* <Route path='/projects' component={ Projects }/> */}
+      </Routes>
     </div>
   );
 }
