@@ -5,7 +5,7 @@ Body {
 }
 
 .home {
-  height: 1000px;
+  height: 100vh;
   align-self: start;
   margin-top: 50vh;
 }
@@ -32,6 +32,10 @@ nav a {
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
+}
+
+#projects {
+  height: 100vh;
 }
 
 

@@ -1,10 +1,11 @@
 import React from "react";
+import ProjectOne from "./ProjectOne";
 
 const Projects = () => {
     return (
-        <h1>
-            something else
-        </h1>
+        <section id="projects">
+            <ProjectOne />
+        </section>
     );
 };
 export default Projects;
