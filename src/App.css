@@ -1,5 +1,13 @@
-.App {
+Body {
   text-align: center;
+  text-size-adjust: 150%;
+  background-color: darkslategray;
+}
+
+.home {
+  height: 1000px;
+  align-self: start;
+  margin-top: 50vh;
 }
 
 .App-logo {
