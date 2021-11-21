@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="container">
       <Routes>
-        <Route exact path='/' component={ Home }/>
-        {/* <Route path='/projects' component={ Projects }/> */}
+        <Route exact path='/' element={ <Home/> }/>
+        {/* <Route path='/projects' element={ <Projects/> }/> */}
       </Routes>
     </div>
   );
