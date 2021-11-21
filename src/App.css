@@ -4,11 +4,14 @@ Body {
   background-color: darkslategray;
 }
 
-.home {
+#home {
+  margin-bottom: 50vh;
   height: 100vh;
-  align-self: start;
-  margin-top: 50vh;
+  text-align: center;
+  line-height: 100vh;
+  font-size: xx-large
 }
+
 
 nav {
 	position: fixed;
@@ -32,10 +35,11 @@ nav a {
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
+  color: azure;
 }
 
 #projects {
-  height: 100vh;
+  padding: auto;
 }
 
 
