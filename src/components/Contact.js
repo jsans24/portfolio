@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <section>
-            <h2>Give Feedback to Our Website.</h2>\
+        <section id="contact">
+            <h2>Reach Out</h2>\
             <form action="mailto:jsans24@gmail.com" method="get" enctype="text/plain">
                 <div>
                     <label for="name">Name:
@@ -18,7 +18,7 @@ const Contact = () => {
                 <div>
                     <label>Comments:</label>
                     <br />
-                    <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+                    <textarea name="comments" rows="12" cols="35"></textarea>
                 </div>
                 <div>
                     <input type="submit" name="submit" value="Send" />
@@ -28,3 +28,5 @@ const Contact = () => {
         </section>
     );
 };
+
+export default Contact;

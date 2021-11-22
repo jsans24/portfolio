@@ -39,11 +39,16 @@ nav a {
 }
 
 #projects {
-  padding: auto;
+  padding: 25vh 0;
+  margin-bottom: 25%;
 }
 
 .col-third {
   width: 32%;
+}
+
+#contact {
+  padding: 25vh 0;
 }
 
 .link {

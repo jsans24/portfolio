@@ -8,8 +8,8 @@ const Projects = (props) => {
     });
 
     return (
-        <section>
-            <h2>Projects</h2>
+        <section id="projects">
+            <h2 className="phead">Projects</h2>
             <div className="grid-wrapper articles">
                 {getprojects}
             </div>
