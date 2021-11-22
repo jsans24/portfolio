@@ -1,12 +1,12 @@
 Body {
   text-align: center;
   text-size-adjust: 150%;
-  background-color: darkslategray;
+  background-color: black;
+  color: aliceblue;
 }
 
 #home {
-  height: 100vh;
-  padding: 25% 0 0;
+  padding: 25vh 0;
   text-align: center;
   font-size: xx-large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -17,8 +17,7 @@ Body {
   background-image: url('./images/shot-by-cerqueira-0o_GEzyargo-unsplash.jpg');
   background-size: cover;
   opacity: .6;
-	background-attachment: fixed;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -61,7 +60,7 @@ nav a {
 }
 
 #contact {
-  padding: 25vh 0;
+  padding: 25vh;
   color: aliceblue;
 }
 
@@ -71,7 +70,7 @@ nav a {
 }
 
 textarea {
-  width: 85vw;
+  width: 50vw;
   height: 30vh;
 }
 

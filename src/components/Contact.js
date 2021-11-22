@@ -6,7 +6,7 @@ const Contact = () => {
             <h2>Reach Out</h2>
             <form className="email" action="mailto:jsans24@gmail.com" method="get" enctype="text/plain">
                 <div>
-                    <label for="name">Name:
+                    <label for="name" className="name">Name:
                         <input type="text" name="name" id="name" size="50" />
                     </label>
                 </div>
