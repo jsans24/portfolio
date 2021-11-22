@@ -29,7 +29,7 @@ export const projectList = [
 
 const Project = (props) => {
     return (
-        <a href={props.project.link}  className="col-third link">
+        <a target="_blank" href={props.project.link}  className="col-third link">
             <div>
                 <img src={props.project.image} alt="image of Anywhere. Else. landing page"
                     onMouseOver={e => (e.currentTarget.src = props.project.gif)}
