@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
     return (
         <section>
-            <h2>Give Feedback to Our Website.</h2><form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
-            <form>
+            <h2>Give Feedback to Our Website.</h2>\
+            <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
                 <div>
                     <label for="name">Name:
                         <input type="text" name="name" id="name" />
