@@ -1,11 +1,16 @@
 import React from "react";
-import ProjectOne from "./ProjectOne";
+import Project, { projectList } from "./ProjectList";
 
-const Projects = () => {
+const Projects = (props) => {
+
+    const getprojects = projectList.map((projectObj, index) => {
+        return <Project project={projectObj} key={index} />    
+    });
+
     return (
-        <section id="projects">
-            <ProjectOne />
-        </section>
+        <div className="grid-wrapper articles">
+        {getprojects}
+      </div>
     );
 };
 export default Projects;
