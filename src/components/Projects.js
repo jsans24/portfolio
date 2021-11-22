@@ -8,9 +8,12 @@ const Projects = (props) => {
     });
 
     return (
-        <div className="grid-wrapper articles">
-        {getprojects}
-      </div>
+        <section>
+            <h2>Projects</h2>
+            <div className="grid-wrapper articles">
+                {getprojects}
+            </div>
+        </section>
     );
 };
 export default Projects;

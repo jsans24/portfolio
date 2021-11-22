@@ -42,6 +42,14 @@ nav a {
   padding: auto;
 }
 
+.col-third {
+  width: 32%;
+}
+
+.link {
+  color: aliceblue;
+}
+
 .grid-wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
